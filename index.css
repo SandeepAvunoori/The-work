@@ -1,0 +1,330 @@
+.resume-bg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-background-container {
+    background-color: rgb(238, 155, 169);
+    width: 70%;
+    padding: 20px;
+    box-shadow: 0px 4px 4px 2px rgb(167, 163, 163);
+}
+
+.profile-user-details-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.user-address-container {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 3px #1e194a;
+}
+
+.profile-icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.background {
+    background-color: #1e194a;
+    min-height: 35px;
+    min-width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 35px;
+    color: #1e194a;
+    margin-bottom: -15px;
+}
+
+.icons {
+    color: rgb(238, 155, 169);
+    font-size: 28px;
+}
+
+.icon-circle-container{
+    border: solid 3px #1e194a;
+    padding: 10px 12px 10px 12px;
+    border-radius: 100px;
+    margin-bottom: -20px;
+}
+
+.name-container {
+    width: 40%;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.user-name {
+    color: #1e194a;
+    font-family: "Roboto";
+    font-weight: 600;
+    margin-bottom: -13px;
+    font-size: 25px;
+}
+
+.tag {
+    color: #1e194a;
+    font-family: "Roboto";
+    font-size: 10px;
+}
+
+.address-container {
+    width: 50%;
+    border-left: solid 3px #1e194a;
+    padding: 10px;
+}
+
+.address-container>p {
+    color: #1e194a;
+    font-family: "Roboto";
+    font-size: 10px;
+    width: 91%;
+}
+
+.user-work-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.year-ex-container {
+    width: 100%;
+    border-bottom: solid 3px #1e194a;
+    padding-bottom: 10px;
+}
+
+.year-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-bottom: -27px;
+    width: 90%;
+}
+
+.year {
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    width: 20%;
+    color: #1e194a;
+}
+
+.description-heading {
+    font-family: "Roboto";
+    font-size: 11px;
+    margin-top: 10px;
+    color: #1e194a;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+.description-paragraph {
+    font-size: 10px;
+    font-family: "Roboto";
+    color: #1e194a;
+}
+
+.description-container {
+    width: 80%;
+}
+
+
+.skills-awards-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-description-container {
+    display: flex;
+    width: 100%;
+    border-bottom: solid 3px #1e194a;
+}
+
+.skill-box {
+    width: 42%;
+    margin-top: 10px;
+}
+
+.ex-box {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-left: solid 3px #1e194a;
+    padding: 5px;
+}
+
+.span-el {
+    margin-left: 6px;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.skill-row {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    max-height: 22px;
+}
+
+.skill-tag {
+    color: #1e194a;
+    font-family: "Roboto";
+    font-size: 10px;
+    width: 50%;
+}
+
+.skill-level {
+    display: flex;
+}
+
+.user-interest-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons-row {
+    display: flex;
+    padding-top: 20px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 3px #1e194a;
+}
+
+.gap {
+    margin-left: 30px;
+    height: 80px;
+}
+
+.margin {
+    margin-top: 15px;
+}
+
+.user-education-container {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:576px) {
+    .bg-container {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .icon-circle {
+        margin-bottom: -16px;
+    }
+
+    .height {
+        max-height: 60px;
+    }
+
+    .background {
+        min-height: 20px;
+        min-width: 20px;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    .icons {
+        font-size: 15px;
+    }
+
+    .name-container {
+        width: 40%;
+        margin-top: 10px;
+    }
+
+    .profile-name {
+        margin-bottom: -10px;
+        font-size: 15px;
+    }
+
+    .tag {
+        font-size: 8px;
+    }
+
+    .address-container>p {
+        font-size: 8px;
+        width: 91%;
+        margin-bottom: -5px;
+    }
+
+    .year-container {
+        padding-left: 7px;
+        width: 100%;
+    }
+
+    .year {
+        font-family: "Roboto";
+        font-size: 8px;
+        font-weight: bold;
+        margin-bottom: 50px;
+        width: 20%;
+        color: rgb(38, 38, 99);
+    }
+
+    .ex-heading {
+        font-size: 8px;
+        margin-top: 7px;
+    }
+
+    .ex-paragraph {
+        font-size: 8px;
+    }
+
+    .skill-box {
+        width: 45%;
+        margin-top: 5px;
+    }
+
+    .ex-box {
+        padding: 0px 0px 3px 0px;
+    }
+
+    .dot {
+        margin-left: 3px;
+        height: 5px;
+        width: 5px;
+    }
+
+    .skill-row {
+        padding-left: 10px;
+        max-height: 17px;
+    }
+
+    .skill-tag {
+        font-size: 8px;
+        width: 60%;
+    }
+
+    .skill-level {
+        display: flex;
+    }
+
+    .gap {
+        margin-right: 7px;
+        margin-left: 0px;
+        height: 80px;
+    }
+
+    .margin {
+        margin-top: 15px;
+    }
+}
